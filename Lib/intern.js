@@ -7,8 +7,8 @@ class Intern extends Employee{
         super(name, id, email)
         this.school = school;
     }
-    getOfficeNumber(){
-        return this.school
+    info(){
+        return `School: ${this.school}`
     }
     getRole(){
         return 'Intern'

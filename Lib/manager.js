@@ -7,8 +7,8 @@ class Manager extends Employee{
         super(name, id, email)
         this.officeNumber = officeNumber;
     }
-    getOfficeNumber(){
-        return this.officeNumber
+    info(){
+        return `Office Number: ${this.officeNumber}`
     }
     getRole(){
         return 'Manager'
