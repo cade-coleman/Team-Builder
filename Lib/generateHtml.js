@@ -5,7 +5,7 @@ const createHtml = (data) => {
 const team = [];
 
     for(let i = 0; i < data.length; i++ ){
-    team.push(`<div class="card mr-5" style="width: 18rem;">
+    team.push(`<div class="card mr-5 mt-5 ml-5" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">${data[i].getRole()}</h5>
       <h5 class="card-title">${data[i].getName()}</h5>
@@ -13,8 +13,8 @@ const team = [];
     </div>
     <ul class="list-group list-group-flush">
       <li class="list-group-item">ID:${data[i].getId()}</li>
-     <a href='mailto:${data[i].getEmail()}'> <li class="list-group-item">Email:${data[i].getEmail()} </li></a>
-     ${data[i].getRole()=== 'Engineer' ? `<a href='${data[i].info()}'> <li class="list-group-item">${data[i].info()}</li></a>`: `<li class="list-group-item">${data[i].info()}</li>`}
+     <a href='mailto: ${data[i].getEmail()}'> <li class="list-group-item">Email: ${data[i].getEmail()} </li></a>
+     ${data[i].getRole()=== 'Engineer' ? `<a href='https://github.com/${data[i].gitHub}?tab=/repositories'> <li class="list-group-item">${data[i].info()}</li></a>`: `<li class="list-group-item">${data[i].info()}</li>`}
      
     </ul>
   </div>`)
