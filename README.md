@@ -1,5 +1,5 @@
 # Team Builder
-![image1](../Screenshot%202022-09-22%20165642.png)
+![../Screenshot%202022-09-22%20165642.png](../Screenshot%202022-09-22%20165642.png)
 
 
 ## Summary
