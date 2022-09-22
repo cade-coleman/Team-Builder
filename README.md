@@ -1,10 +1,10 @@
-## Team Builder
+# Team Builder
 
-# Summary
+## Summary
  
 This team building app is a comandline app that you can use to create and append a team to a web page. It uses Inquirer mainly as well as a few other packages, this writes an html page with bootstrap elements to display your team members.
 
-# Instructions
+## Instructions
 
 To run this app
 
